@@ -10,4 +10,9 @@ enum class Color {
     green = 6
 };
 
+Color operator+(Color a, Color b)
+{
+
+}
+
 #endif // COLORMIX_H
