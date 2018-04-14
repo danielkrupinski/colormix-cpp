@@ -4,7 +4,10 @@
 enum class Color {
     red,
     blue,
-    yellow
+    yellow,
+    purple,
+    orange,
+    green
 };
 
 #endif // COLORMIX_H
