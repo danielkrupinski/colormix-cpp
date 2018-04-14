@@ -4,8 +4,8 @@
 enum class Color {
     red = 1,
     blue = 2,
-    yellow = 4,
     purple = 3,
+    yellow = 4,
     orange = 5,
     green = 6
 };
