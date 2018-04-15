@@ -3,8 +3,8 @@
 
 int main()
 {
-    Color c1 {static_cast<Color>(inputColor())};
-    Color c2 {static_cast<Color>(inputColor())};
+    Color c1 {static_cast<Color>(inputColor("first"))};
+    Color c2 {static_cast<Color>(inputColor("second"))};
 
     Color c3 {c1+c2};
 

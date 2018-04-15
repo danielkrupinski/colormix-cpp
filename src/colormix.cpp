@@ -3,7 +3,7 @@
 
 int inputColor(std::string s)
 {
-    std::cout << "Select first color:\n"
+    std::cout << "Select " << s << " color:\n"
                  "1. Red\n"
                  "2. Blue\n"
                  "3. Yellow\n";
