@@ -15,4 +15,8 @@ constexpr Color operator+(Color a, Color b)
     return static_cast<Color>(static_cast<int>(a)+static_cast<int>(b));
 }
 
+namespace Color {
+    int getColor();
+}
+
 #endif // COLORMIX_H
