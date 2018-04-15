@@ -3,8 +3,8 @@
 
 int main()
 {
-    Color c1 {static_cast<Color>(Color::getColor())};
-    Color c2 {static_cast<Color>(Color::getColor())};
+    Color c1 {static_cast<Color>(inputColor())};
+    Color c2 {static_cast<Color>(inputColor())};
 
     Color c3 {c1+c2};
 

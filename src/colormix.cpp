@@ -1,6 +1,7 @@
 #include "../include/colormix.h"
+#include <iostream>
 
-int Color::getColor()
+int inputColor()
 {
     std::cout << "Select first color:\n"
                  "1. Red\n"
