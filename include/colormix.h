@@ -1,7 +1,6 @@
 #ifndef COLORMIX_H
 #define COLORMIX_H
 
-#include <string>
 #include <iostream>
 
 enum class Color {
