@@ -12,11 +12,6 @@ enum class Color {
     green = 6
 };
 
-constexpr Color operator+(Color a, Color b)
-{
-    return static_cast<Color>(static_cast<int>(a)+static_cast<int>(b));
-}
-
 int inputColor(std::string);
 
 #endif // COLORMIX_H

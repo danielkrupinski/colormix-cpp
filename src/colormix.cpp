@@ -11,3 +11,8 @@ int inputColor(std::string s)
     std::cin >> a;
     return a;
 }
+
+constexpr Color operator+(Color a, Color b)
+{
+    return static_cast<Color>(static_cast<int>(a)+static_cast<int>(b));
+}
