@@ -7,6 +7,7 @@ int main()
     Color c2 {static_cast<Color>(inputColor("second"))};
 
     Color c3 {c1+c2};
+    std::cout << c3;
 
     return 0;
 }
