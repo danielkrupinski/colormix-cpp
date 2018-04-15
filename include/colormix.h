@@ -21,22 +21,22 @@ inline std::ostream& operator<<(std::ostream& os, Color color)
 {
     switch (color) {
     case Color::red:
-        os << "Red";
+        os << "red";
         break;
     case Color::blue:
-        os << "Blue";
+        os << "blue";
         break;
     case Color::purple:
-        os << "Purple";
+        os << "purple";
         break;
     case Color::yellow:
-        os << "Yellow";
+        os << "yellow";
         break;
     case Color::orange:
-        os << "Orange";
+        os << "orange";
         break;
     case Color::green:
-        os << "Green";
+        os << "green";
         break;
     }
     return os;
