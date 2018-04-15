@@ -1,5 +1,4 @@
 #include "../include/colormix.h"
-#include <iostream>
 
 int inputColor(std::string s)
 {
