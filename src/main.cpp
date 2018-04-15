@@ -1,4 +1,4 @@
-#include "../include/main.h"
+#include <iostream>
 #include "../include/colormix.h"
 
 int main()
