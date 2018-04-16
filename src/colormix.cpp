@@ -11,3 +11,13 @@ int inputColor(std::string s)
     if (a==3) ++a;
     return a;
 }
+
+void clearScreen()
+{
+    std::cout << std::endl;
+    #ifdef _WIN32
+        system("cls");
+    #elif defined __linux__
+        system("clear");
+    #endif
+}
