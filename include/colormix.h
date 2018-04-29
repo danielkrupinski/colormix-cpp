@@ -42,7 +42,7 @@ inline std::ostream& operator<<(std::ostream& os, Color color)
     return os;
 }
 
-int inputColor(std::string);
+int inputColor(const std::string&&);
 void clearScreen();
 
 #endif // COLORMIX_H

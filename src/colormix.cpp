@@ -1,6 +1,6 @@
 #include "../include/colormix.h"
 
-int inputColor(std::string s)
+int inputColor(const std::string&& s)
 {
     std::cout << "Select " << s << " color:\n"
                  "1. Red\n"
