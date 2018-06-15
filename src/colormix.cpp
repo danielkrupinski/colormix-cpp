@@ -6,9 +6,9 @@ int inputColor(const std::string&& s)
                  "1. Red\n"
                  "2. Blue\n"
                  "3. Yellow\n";
-    int a {0};
+    int a;
     std::cin >> a;
-    if (a==3) ++a;
+    if (a == 3) ++a;
     return a;
 }
 
