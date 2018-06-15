@@ -10,4 +10,3 @@ set(CMAKE_CXX_FLAGS_RELEASE "-std=c++17 -m64 -Ofast -flto -march=native -funroll
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 add_executable(colormix-cpp ${SOURCES})
-#target_link_libraries(Example lib1 lib2 lib3)
