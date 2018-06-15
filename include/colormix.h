@@ -3,6 +3,9 @@
 
 #include <iostream>
 
+void clearScreen();
+int inputColor(const std::string&&);
+
 enum class Color {
     red = 1,
     blue = 2,
@@ -41,8 +44,5 @@ inline std::ostream& operator<<(std::ostream& os, Color color)
     }
     return os;
 }
-
-int inputColor(const std::string&&);
-void clearScreen();
 
 #endif // COLORMIX_H
