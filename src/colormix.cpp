@@ -6,10 +6,10 @@ int inputColor(const std::string&& s)
                  "1. Red\n"
                  "2. Blue\n"
                  "3. Yellow\n";
-    int a;
-    std::cin >> a;
-    if (a == 3) ++a;
-    return a;
+    int color;
+    std::cin >> color;
+    if (color == 3) ++color;
+    return color;
 }
 
 void clearScreen()
