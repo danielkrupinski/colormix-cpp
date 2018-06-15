@@ -1,6 +1,6 @@
 #include <colormix.h>
 
-int inputColor(const std::string&& s)
+Color inputColor(const std::string&& s)
 {
     std::cout << "Select " << s << " color:\n"
                  "1. Red\n"
@@ -9,7 +9,7 @@ int inputColor(const std::string&& s)
     int color;
     std::cin >> color;
     if (color == 3) ++color; // Index 3 of enum class Color is occupated by purple so we use index 4 for yellow
-    return color;
+    return static_cast<Color>(color);
 }
 
 void clearScreen()

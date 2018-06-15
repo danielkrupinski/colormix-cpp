@@ -4,7 +4,6 @@
 #include <iostream>
 
 void clearScreen();
-int inputColor(const std::string&&);
 
 enum class Color {
     red = 1,
@@ -14,6 +13,8 @@ enum class Color {
     orange = 5,
     green = 6
 };
+
+Color inputColor(const std::string&&);
 
 constexpr Color operator+(Color a, Color b)
 {
