@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-void clearScreen();
+void clearScreen() noexcept;
 
 enum class Color : char {
     red = 1,

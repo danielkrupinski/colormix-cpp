@@ -12,7 +12,7 @@ Color inputColor(const std::string&& s)
     return static_cast<Color>(color);
 }
 
-void clearScreen()
+void clearScreen() noexcept
 {
     std::cout << std::endl;
     #ifdef _WIN32
