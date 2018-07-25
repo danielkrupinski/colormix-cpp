@@ -18,7 +18,7 @@ Color inputColor(const std::string&&);
 
 constexpr Color operator+(Color a, Color b)
 {
-    return a == b ? a : static_cast<Color>(static_cast<int>(a)+static_cast<int>(b));
+    return a == b ? a : static_cast<Color>(static_cast<int>(a) + static_cast<int>(b));
 }
 
 inline std::ostream& operator<<(std::ostream& os, Color color)
