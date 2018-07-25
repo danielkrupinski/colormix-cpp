@@ -8,7 +8,9 @@ Color inputColor(const std::string&& s)
                  "3. Yellow\n";
     int color;
     std::cin >> color;
-    if (color == 3) ++color; // Index 3 of enum class Color is occupated by purple so we use index 4 for yellow
+    if (color == 3) {
+        ++color; // Index 3 of enum class Color is occupated by purple so we use index 4 for yellow
+    }
     return static_cast<Color>(color);
 }
 
