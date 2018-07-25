@@ -16,7 +16,7 @@ enum class Color : char {
 
 Color inputColor(const std::string&&);
 
-constexpr Color operator+(Color a, Color b)
+constexpr Color operator+(Color a, Color b) noexcept
 {
     return a == b ? a : static_cast<Color>(static_cast<int>(a) + static_cast<int>(b));
 }
