@@ -5,7 +5,7 @@
 
 void clearScreen();
 
-enum class Color {
+enum class Color : char {
     red = 1,
     blue = 2,
     purple = 3,
